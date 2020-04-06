@@ -1,0 +1,27 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.board{
+  width: 570px;
+  height: 570px;
+  margin: auto;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.square{
+  width:185px;
+  height:185px;
+  margin: auto;
+  border: 1px solid black;
+}
+.square:hover{
+  background-color: aquamarine;
+}
+.square_symbol{
+  font-size: 60px;
+  padding: auto;
+}
